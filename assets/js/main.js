@@ -64,8 +64,7 @@ const sr = ScrollReveal({
 	delay: 400,
 })
 
-sr.reveal(`.home-data, .project-h2`)
+sr.reveal(`.home-data, .project-h2, .about-content-1-img, .blob-1, .contact-left `)
 sr.reveal(`.home-right-data, .about-h2, .about-content-2-data`, {origin: 'bottom'})
-sr.reveal(`.about-content-1-img, .blob-1, .contact-left`, {origin: 'right'})
 sr.reveal(`.about-contnent-1-data, .blob-2, .about-content-2-img, .contact-right`, {origin: 'left'})
 sr.reveal(`.project-card`, {interval: 100})
