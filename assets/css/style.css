@@ -75,7 +75,7 @@ ul{
     transition: 0.3s ease;
 }
 .hover-links:hover{
-    color:#8364e8;
+    color: #392d69;
 }
 .secondary-btn{
     background: linear-gradient(90deg,
@@ -117,9 +117,18 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0 2px 6px #00000081;
+/*     box-shadow: 0 2px 6px #00000081; */
     z-index: 99999;
     height: 70px;
+
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+/*     border-radius: 16px; */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .nav-container{
@@ -145,7 +154,7 @@ nav{
 
 /* --- active link */
 .active-link{
-    color: #8364e8;
+    color: #392d69;
 }
 /* home section */
 .home{
