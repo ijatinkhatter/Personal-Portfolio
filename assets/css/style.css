@@ -97,7 +97,12 @@ ul{
     margin-bottom: 30px;
     gap: .8rem;
     font-size: 1rem;
-    
+    transition: 0.3s ease;
+}
+.primary-btn:hover{
+    background: linear-gradient(360deg,
+    #380079 0%,
+    #392d69 100%);
 }
 .title{
     text-shadow: 0 0 10px #5000ff;
