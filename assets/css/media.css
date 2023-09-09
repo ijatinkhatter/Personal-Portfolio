@@ -336,7 +336,7 @@
         width: 95%;
     }
     .contact-box{
-        padding: 2rem;
+        padding: 1rem;
     }
     .input-mail{
         flex-direction: column;
@@ -452,7 +452,7 @@
         padding: 1rem;
     }
     .scrollup{
-        right: 1rem;
+        right: 3rem;
         font-size: 1rem;
         padding: 0.5rem;
     }
