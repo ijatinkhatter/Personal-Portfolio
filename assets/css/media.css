@@ -334,6 +334,7 @@
     }
     .project-card{
         width: 95%;
+        padding: 1rem;
     }
     .contact-box{
         padding: 1rem;
@@ -412,6 +413,9 @@
         right: 1rem;
         font-size: 1rem;
         padding: 0.5rem;
+    }
+    .project-card{
+        padding: 1rem;
     }
 }
 @media screen and (max-width: 320px) {
